@@ -14,6 +14,7 @@ JSONObject  data;
 JSONArray humans;
 
 String[][] connections={
+  //7,10,14,16
   {"nose", "leftEye"},
   {"leftEye", "leftEar"},
   {"nose", "rightEye"},
@@ -64,11 +65,37 @@ if (data != null) {
     for(int h = 0; h < humans.size(); h++) {
       JSONArray keypoints = humans.getJSONArray(h);
       
-        JSONArray point = keypoints.getJSONArray(0);
-        float x = point.getFloat(0);
-        float y = point.getFloat(1);
-        mypaint.display(x*width,y*height);
-        //ellipse(x * width, y * height, 10, 10);
+      //nose
+        JSONArray point1 = keypoints.getJSONArray(0);
+        float x1 = point1.getFloat(0);
+        float y1 = point1.getFloat(1);
+        mypaint.display(x1*width,y1*height);
+        println("nose");
+        //right wrist
+        JSONArray point2 = keypoints.getJSONArray(6);
+        float x2 = point2.getFloat(0);
+        float y2 = point2.getFloat(1);
+        mypaint.display(x2*width,y2*height);
+           println("rwrisst");
+        //left wrist
+        JSONArray point3 = keypoints.getJSONArray(9);
+        float x3 = point3.getFloat(0);
+        float y3 = point3.getFloat(1);
+        mypaint.display(x3*width,y3*height);
+           println("lwrist");
+        //right ankle
+        JSONArray point4 = keypoints.getJSONArray(13);
+        float x4 = point4.getFloat(0);
+        float y4 = point4.getFloat(1);
+        mypaint.display(x4*width,y4*height);
+           println("rankle");
+        //left  ankle
+        JSONArray point5 = keypoints.getJSONArray(15);
+        float x5 = point5.getFloat(0);
+        float y5 = point5.getFloat(1);
+        mypaint.display(x5*width,y5*height);
+           println("lankle");
+  
      // }
     }
   }
