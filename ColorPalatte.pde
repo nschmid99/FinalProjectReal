@@ -7,7 +7,7 @@ int[]bluesB;
 int[] redsB;
 
 ColorPalatte(){
-for(int i=0;i<25;i++){
+for(int i=0;i<15;i++){
 bluesR=new int[i];
 redsR=new int[i];
 bluesG=new int[i];
@@ -38,16 +38,7 @@ bluesR[10]=int(15);  //Sapphire
 bluesR[11]=int(76);  //Independence
 bluesR[12]=int(114);  //Pigeon
 bluesR[13]=int(70);  //Steel
-bluesR[14]=int(88);  //AirForcce
-bluesR[15]=int(176);  //Powder
-bluesR[16]=int(0);  //Prussian
-bluesR[17]=int(16);  //egyptian
-bluesR[18]=int(0);  //olympic
-bluesR[19]=int(0);  //teal
-bluesR[20]=int(129);  //turkish blue
-bluesR[21]=int(129);  //tiffany blue
-bluesR[22]=int(126); //electric blue
-bluesR[23]=int(63);  //turqoise 
+
 }
 void setBlueG(){
  bluesG[0]=int(30);  //Royal
@@ -64,16 +55,6 @@ void setBlueG(){
  bluesG[11]=int(81);  //Independence
  bluesG[12]=int(133);  //Pigeon
  bluesG[13]=int(130);  //Steel
- bluesG[14]=int(139);  //AirForcce
- bluesG[15]=int(223);  //Powder
- bluesG[16]=int(49);  //Prussian
- bluesG[17]=int(52);  //egyptian
- bluesG[18]=int(142);  //olympic
- bluesG[19]=int(128);  //teal
- bluesG[20]=int(151);  //turkish blue
- bluesG[21]=int(216);  //tiffany blue
- bluesG[22]=int(249); //electric blue
- bluesG[23]=int(224);  //turqoise
   
 }
 
@@ -92,17 +73,7 @@ void setBlueB(){
  bluesB[11]=int(109);  //Independence
  bluesB[12]=int(165);  //Pigeon
  bluesB[13]=int(180);  //Steel
- bluesB[14]=int(174);  //AirForcce
- bluesB[15]=int(229);  //Powder
- bluesB[16]=int(82);  //Prussian
- bluesB[17]=int(166);  //egyptian
- bluesB[18]=int(204);  //olympic
- bluesB[19]=int(129);  //teal
- bluesB[20]=int(163);  //turkish blue
- bluesB[21]=int(208);  //tiffany blue
- bluesB[22]=int(255); //electric blue
- bluesB[23]=int(208);  //turqoise
-  
+ 
 }
 
 void setRedR()
@@ -121,16 +92,7 @@ void setRedR()
   redsR[11]=int(234);  //desire
   redsR[12]=int(126);  //vermillion
   redsR[13]=int(255);  //candy apple
-  redsR[14]=int(180);  //hibiscus
-  redsR[15]=int(210);  //raspberry
-  redsR[16]=int(202);  //persion
-  redsR[17]=int(191);  //US flag
-  redsR[18]=int(255);  //red orange
-  redsR[19]=int(66);  //mahogany
-  redsR[20]=int(184);  //crimson
-  redsR[21]=int(94);  //sangria
-  redsR[22]=int(141);  //burgundy
-  redsR[23]=int(147);  //rust
+ 
 }
   void setRedG()
 {
@@ -148,17 +110,7 @@ void setRedR()
   redsG[11]=int(60);  //desire
   redsG[12]=int(25);  //vermillion
   redsG[13]=int(8);  //candy apple
-  redsG[14]=int(55);  //hibiscus
-  redsG[15]=int(31);  //raspberry
-  redsG[16]=int(52);  //persion
-  redsG[17]=int(10);  //US flag
-  redsG[18]=int(40);  //red orange
-  redsG[19]=int(13);  //mahogany
-  redsG[20]=int(15);  //crimson
-  redsG[21]=int(25);  //sangria
-  redsG[22]=int(2);  //burgundy
-  redsG[23]=int(58);  //rust
-  
+
  }
  
  void setRedB()
@@ -177,16 +129,6 @@ void setRedR()
   redsB[11]=int(83);  //desire
   redsB[12]=int(27);  //vermillion
   redsB[13]=int(0);  //candy apple
-  redsB[14]=int(87);  //hibiscus
-  redsB[15]=int(60);  //raspberry
-  redsB[16]=int(51);  //persion
-  redsB[17]=int(48);  //US flag
-  redsB[18]=int(0);  //red orange
-  redsB[19]=int(9);  //mahogany
-  redsB[20]=int(10);  //crimson
-  redsB[21]=int(20);  //sangria
-  redsB[22]=int(31);  //burgundy
-  redsB[23]=int(22);  //rust
   
  }
   
