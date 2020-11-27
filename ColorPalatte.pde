@@ -1,4 +1,9 @@
+//Color palatte class which gives both warm and cool colors. Had to separate colors by RGB values because fluids take each value separately
+//colors taken from grafix palette
+//https://graf1x.com/shades-of-blue-color-palette/
+//https://graf1x.com/shades-of-red-color-palette-hex-rgb-code/
 class ColorPalatte{
+//creates an array for each RGB value for each palatte
 int[]bluesR;
 int[] redsR;
 int[]bluesG;
@@ -7,6 +12,7 @@ int[]bluesB;
 int[] redsB;
 
 ColorPalatte(){
+//instantiates arrays
 for(int i=0;i<15;i++){
 bluesR=new int[i];
 redsR=new int[i];
@@ -15,6 +21,7 @@ redsG=new int[i];
 bluesB=new int[i];
 redsB=new int[i];
 }
+//fills arrays with values
 setBlueR();
 setBlueG();
 setBlueB();
@@ -133,9 +140,8 @@ void setRedR()
  }
   
  
-
+//function call to get a random color from the array and set the value
 int bR(){
- 
 int br=bluesR[(int)random(bluesR.length)];
  return br;
  }
