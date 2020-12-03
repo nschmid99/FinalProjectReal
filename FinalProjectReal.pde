@@ -1,6 +1,9 @@
-/*This code is for my final project for CRCP 5350 Motion Capture with Professor Courtney Brown
+/*
+Natasha Schmid
+Dec 3 2020
+This code is for my final project for CRCP 5350 Motion Capture
 This code uses PoseNet via Runway and utilizes the PixelFlow library on processing to create virtual paintings
-based on the detected position of the nose, wrists, and ankles 
+based on the detected position of the nose, wrists, and ankles of a dancer
 */
 
 import com.thomasdiewald.pixelflow.java.*;
