@@ -1,7 +1,10 @@
+//Natasha Schmid
+//Dec 3 2020
 //Color palatte class which gives both warm and cool colors. Had to separate colors by RGB values because fluids take each value separately
 //colors taken from grafix palette
 //https://graf1x.com/shades-of-blue-color-palette/
 //https://graf1x.com/shades-of-red-color-palette-hex-rgb-code/
+
 class ColorPalatte{
 //creates an array for each RGB value for each palatte
 int[]bluesR;
@@ -30,6 +33,7 @@ setRedG();
 setRedB();
 }
 
+//sets blue r value
 void setBlueR(){
 bluesR[0]=int(17);  //Royal
 bluesR[1]=int(0);  //Navy
@@ -47,6 +51,8 @@ bluesR[12]=int(114);  //Pigeon
 bluesR[13]=int(70);  //Steel
 
 }
+
+//sets blue g value
 void setBlueG(){
  bluesG[0]=int(30);  //Royal
  bluesG[1]=int(0);  //Navy
@@ -65,6 +71,7 @@ void setBlueG(){
   
 }
 
+//sets blue b value
 void setBlueB(){
  bluesB[0]=int(108);  //Royal
  bluesB[1]=int(128);  //Navy
@@ -83,6 +90,7 @@ void setBlueB(){
  
 }
 
+//sets red r value
 void setRedR()
 {
   redsR[0]=int(250);  //salmon
@@ -101,7 +109,9 @@ void setRedR()
   redsR[13]=int(255);  //candy apple
  
 }
-  void setRedG()
+
+//sets red g value
+void setRedG()
 {
   redsG[0]=int(128);  //salmon
   redsG[1]=int(36);  //scarlet 
@@ -120,6 +130,7 @@ void setRedR()
 
  }
  
+ //sets red b value
  void setRedB()
 {
   redsB[0]=int(114);  //salmon
